@@ -12,7 +12,6 @@ public class StudentAvarege {
 		StudentAvarege sa = new StudentAvarege();
 		
 		Scanner ler = new Scanner(System.in);
-		
 		System.out.println("First");
 		sa.getGrades()[0] = ler.nextInt();
 		sa.isValidGrade(sa.getGrades()[0]);
